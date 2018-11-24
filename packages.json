@@ -336,6 +336,20 @@
     "repo": "https://github.com/purescript/purescript-foreign.git",
     "version": "v5.0.0"
   },
+  "foreign-generic": {
+    "dependencies": [
+      "proxy",
+      "generics-rep",
+      "exceptions",
+      "effect",
+      "ordered-collections",
+      "foreign-object",
+      "record",
+      "foreign"
+    ],
+    "repo": "https://github.com/paf31/purescript-foreign-generic",
+    "version": "v7.0.0"
+  },
   "foreign-object": {
     "dependencies": [
       "arrays",
@@ -1056,21 +1070,6 @@
     "repo": "https://github.com/purescript/purescript-semirings.git",
     "version": "v5.0.0"
   },
-  "simple-json": {
-    "dependencies": [
-      "exceptions",
-      "foreign",
-      "foreign-object",
-      "globals",
-      "nullable",
-      "prelude",
-      "record",
-      "typelevel-prelude",
-      "variant"
-    ],
-    "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v4.0.0"
-  },
   "sforce": {
     "dependencies": [
       "record",
@@ -1088,6 +1087,21 @@
     ],
     "repo": "https://github.com/Woody88/purescript-psforce.git",
     "version": "v1.0.0"
+  },
+  "simple-json": {
+    "dependencies": [
+      "exceptions",
+      "foreign",
+      "foreign-object",
+      "globals",
+      "nullable",
+      "prelude",
+      "record",
+      "typelevel-prelude",
+      "variant"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-simple-json.git",
+    "version": "v4.0.0"
   },
   "spec": {
     "dependencies": [
