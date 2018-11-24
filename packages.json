@@ -1071,6 +1071,24 @@
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
     "version": "v4.0.0"
   },
+  "sforce": {
+    "dependencies": [
+      "record",
+      "generics-rep",
+      "foreign-generic",
+      "foreign",
+      "form-urlencoded",
+      "uri",
+      "parsing",
+      "typelevel-prelude",
+      "strings",
+      "transformers",
+      "simple-json",
+      "affjax"
+    ],
+    "repo": "https://github.com/Woody88/purescript-psforce.git",
+    "version": "v1.0.0"
+  },
   "spec": {
     "dependencies": [
       "aff",
