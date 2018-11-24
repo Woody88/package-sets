@@ -1084,7 +1084,7 @@
       "affjax"
     ],
     "repo": "https://github.com/Woody88/purescript-psforce.git",
-    "version": "v1.0.0"
+    "version": "v1.0.1"
   },
   "simple-json": {
     "dependencies": [
