@@ -47,7 +47,7 @@
       "web-xhr"
     ],
     "repo": "https://github.com/slamdata/purescript-affjax.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "ansi": {
     "dependencies": [
