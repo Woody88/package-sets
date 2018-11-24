@@ -1072,6 +1072,8 @@
   },
   "sforce": {
     "dependencies": [
+      "affjax",
+      "console",
       "record",
       "generics-rep",
       "foreign-generic",
@@ -1080,8 +1082,7 @@
       "typelevel-prelude",
       "strings",
       "transformers",
-      "simple-json",
-      "affjax"
+      "simple-json"
     ],
     "repo": "https://github.com/Woody88/purescript-psforce.git",
     "version": "v1.0.1"
