@@ -1191,7 +1191,6 @@
       "generics-rep",
       "identity",
       "ordered-collections",
-      "proxy",
       "record"
     ],
     "repo": "https://github.com/paf31/purescript-foreign-generic.git",
@@ -1796,7 +1795,6 @@
       "node-fs-aff",
       "node-http",
       "ordered-collections",
-      "proxy",
       "random",
       "record-extra",
       "smolder",
@@ -3170,7 +3168,6 @@
   "quickcheck-laws": {
     "dependencies": [
       "enums",
-      "proxy",
       "quickcheck"
     ],
     "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
@@ -3186,7 +3183,6 @@
   "quotient": {
     "dependencies": [
       "prelude",
-      "proxy",
       "quickcheck"
     ],
     "repo": "https://github.com/rightfold/purescript-quotient.git",
@@ -4083,7 +4079,6 @@
     "dependencies": [
       "prelude",
       "profunctor",
-      "proxy",
       "record",
       "typelevel-prelude"
     ],
@@ -4390,7 +4385,6 @@
   "typelevel-prelude": {
     "dependencies": [
       "prelude",
-      "proxy",
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
@@ -4502,7 +4496,6 @@
       "literals",
       "maybe",
       "newtype",
-      "proxy",
       "psci-support",
       "tuples",
       "unsafe-coerce"
@@ -4567,7 +4560,6 @@
       "maybe",
       "partial",
       "prelude",
-      "proxy",
       "record",
       "tuples",
       "unsafe-coerce"
