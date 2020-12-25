@@ -117,7 +117,6 @@
       "arrays",
       "effect",
       "foreign-object",
-      "generics-rep",
       "identity",
       "integers",
       "maybe",
@@ -149,7 +148,6 @@
     "dependencies": [
       "argonaut-codecs",
       "argonaut-core",
-      "generics-rep",
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic.git",
@@ -169,7 +167,6 @@
       "arrays",
       "control",
       "foldable-traversable",
-      "generics-rep",
       "maybe",
       "nonempty",
       "prelude",
@@ -414,7 +411,6 @@
       "either",
       "foldable-traversable",
       "foreign-object",
-      "generics-rep",
       "maybe",
       "newtype",
       "prelude",
@@ -530,7 +526,6 @@
   },
   "byte-codec": {
     "dependencies": [
-      "generics-rep",
       "integers",
       "sized-vectors"
     ],
@@ -697,7 +692,6 @@
     "dependencies": [
       "argonaut-core",
       "codec",
-      "generics-rep",
       "ordered-collections",
       "type-equality",
       "variant"
@@ -807,7 +801,6 @@
     "dependencies": [
       "colors",
       "console",
-      "generics-rep",
       "nonempty",
       "profunctor",
       "strings",
@@ -828,7 +821,6 @@
     "dependencies": [
       "arrays",
       "foreign-object",
-      "generics-rep",
       "maybe",
       "ordered-collections",
       "prelude",
@@ -968,7 +960,6 @@
   "email-validate": {
     "dependencies": [
       "aff",
-      "generics-rep",
       "string-parsers",
       "transformers"
     ],
@@ -1132,7 +1123,6 @@
   },
   "float32": {
     "dependencies": [
-      "generics-rep",
       "prelude"
     ],
     "repo": "https://github.com/athanclark/purescript-float32.git",
@@ -1188,7 +1178,6 @@
       "exceptions",
       "foreign",
       "foreign-object",
-      "generics-rep",
       "identity",
       "ordered-collections",
       "record"
@@ -1248,7 +1237,6 @@
   },
   "format-nix": {
     "dependencies": [
-      "generics-rep",
       "motsunabe",
       "prelude"
     ],
@@ -1259,7 +1247,6 @@
     "dependencies": [
       "datetime",
       "fixed-points",
-      "generics-rep",
       "lists",
       "parsing",
       "prelude",
@@ -1395,7 +1382,6 @@
     "dependencies": [
       "foldable-traversable",
       "foreign-object",
-      "generics-rep",
       "newtype",
       "ordered-collections",
       "prelude",
@@ -1458,17 +1444,6 @@
     ],
     "repo": "https://github.com/purescript/purescript-gen.git",
     "version": "v2.1.1"
-  },
-  "generics-rep": {
-    "dependencies": [
-      "enums",
-      "foldable-traversable",
-      "maybe",
-      "newtype",
-      "prelude"
-    ],
-    "repo": "https://github.com/purescript/purescript-generics-rep.git",
-    "version": "v6.1.1"
   },
   "geometry-plane": {
     "dependencies": [
@@ -1607,7 +1582,6 @@
   },
   "halogen-formless": {
     "dependencies": [
-      "generics-rep",
       "halogen",
       "heterogeneous",
       "profunctor-lenses",
@@ -1694,7 +1668,6 @@
       "const",
       "effect",
       "errors",
-      "generics-rep",
       "lists",
       "ordered-collections",
       "orders",
@@ -1705,7 +1678,6 @@
   },
   "html-parser-halogen": {
     "dependencies": [
-      "generics-rep",
       "halogen",
       "prelude",
       "string-parsers"
@@ -1766,7 +1738,6 @@
       "biscotti-session",
       "effect",
       "either",
-      "generics-rep",
       "httpure",
       "maybe",
       "profunctor-lenses",
@@ -1788,7 +1759,6 @@
       "control",
       "effect",
       "foldable-traversable",
-      "generics-rep",
       "http-methods",
       "indexed-monad",
       "media-types",
@@ -1932,7 +1902,6 @@
       "console",
       "effect",
       "foreign",
-      "generics-rep",
       "prelude",
       "psci-support",
       "spec-quickcheck",
@@ -1943,7 +1912,6 @@
   },
   "json-schema": {
     "dependencies": [
-      "generics-rep",
       "prelude",
       "simple-json"
     ],
@@ -1977,7 +1945,6 @@
   },
   "kishimen": {
     "dependencies": [
-      "generics-rep",
       "prelude",
       "typelevel-prelude",
       "variant"
@@ -2019,7 +1986,6 @@
   "lenient-html-parser": {
     "dependencies": [
       "console",
-      "generics-rep",
       "prelude",
       "string-parsers"
     ],
@@ -2074,7 +2040,6 @@
   },
   "logging-journald": {
     "dependencies": [
-      "generics-rep",
       "logging",
       "systemd-journald"
     ],
@@ -2165,7 +2130,6 @@
   "memoize": {
     "dependencies": [
       "either",
-      "generics-rep",
       "integers",
       "lazy",
       "lists",
@@ -2881,7 +2845,6 @@
     "dependencies": [
       "foreign",
       "foreign-object",
-      "generics-rep",
       "invariant",
       "newtype",
       "ordered-collections",
@@ -3028,7 +2991,6 @@
   "proxying": {
     "dependencies": [
       "effect",
-      "generics-rep",
       "prelude",
       "typelevel-prelude"
     ],
@@ -3134,7 +3096,6 @@
       "exceptions",
       "foldable-traversable",
       "gen",
-      "generics-rep",
       "identity",
       "integers",
       "lazy",
@@ -3472,7 +3433,6 @@
     "dependencies": [
       "argonaut",
       "effect",
-      "generics-rep",
       "prelude",
       "quickcheck",
       "typelevel"
@@ -3492,7 +3452,6 @@
     "dependencies": [
       "bifunctors",
       "either",
-      "generics-rep",
       "profunctor-lenses"
     ],
     "repo": "https://github.com/krisajenkins/purescript-remotedata.git",
@@ -3540,7 +3499,6 @@
       "arrays",
       "control",
       "either",
-      "generics-rep",
       "globals",
       "lazy",
       "prelude",
@@ -3648,7 +3606,6 @@
     "dependencies": [
       "effect",
       "either",
-      "generics-rep",
       "prelude",
       "psci-support",
       "validation"
@@ -3670,7 +3627,6 @@
     "dependencies": [
       "effect",
       "functions",
-      "generics-rep",
       "maybe",
       "prelude",
       "web-events"
@@ -3757,7 +3713,6 @@
   },
   "simple-json-generics": {
     "dependencies": [
-      "generics-rep",
       "simple-json"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json-generics.git",
@@ -3840,7 +3795,6 @@
   "slug": {
     "dependencies": [
       "argonaut-codecs",
-      "generics-rep",
       "maybe",
       "prelude",
       "strings",
@@ -3916,7 +3870,6 @@
       "exceptions",
       "foldable-traversable",
       "fork",
-      "generics-rep",
       "now",
       "pipes",
       "prelude",
@@ -4066,7 +4019,6 @@
       "cssom",
       "effect",
       "foreign",
-      "generics-rep",
       "ordered-collections",
       "prelude",
       "refs",
@@ -4120,7 +4072,6 @@
   },
   "svg-parser": {
     "dependencies": [
-      "generics-rep",
       "prelude",
       "string-parsers"
     ],
@@ -4326,7 +4277,6 @@
   },
   "tuples-native": {
     "dependencies": [
-      "generics-rep",
       "typelevel",
       "unsafe-coerce"
     ],
@@ -4348,7 +4298,6 @@
   "typedenv": {
     "dependencies": [
       "foreign-object",
-      "generics-rep",
       "integers",
       "numbers",
       "record",
@@ -4399,7 +4348,6 @@
   },
   "uint": {
     "dependencies": [
-      "generics-rep",
       "math",
       "maybe",
       "quickcheck"
@@ -4506,7 +4454,6 @@
   "uri": {
     "dependencies": [
       "arrays",
-      "generics-rep",
       "globals",
       "integers",
       "parsing",
