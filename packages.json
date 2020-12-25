@@ -3027,13 +3027,6 @@
     "repo": "https://github.com/xc-jp/purescript-protobuf.git",
     "version": "v1.1.1"
   },
-  "proxy": {
-    "dependencies": [
-      "prelude"
-    ],
-    "repo": "https://github.com/purescript/purescript-proxy.git",
-    "version": "v3.0.0"
-  },
   "proxying": {
     "dependencies": [
       "effect",
